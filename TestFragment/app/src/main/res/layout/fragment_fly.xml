@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    android:fitsSystemWindows="true"
+    android:paddingTop="@dimen/x22"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x43"
+        android:gravity="center_vertical"
+        android:background="@color/themeColor"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:background="@color/themeColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/title_bar_imageView_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/left"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title_bar_textView_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="放飞梦想"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x16"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/title_bar_textView_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/rect"
+                android:paddingRight="10dp"
+                android:text="我有一个梦想"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x11"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/fragmentFly_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"></ListView>
+    </LinearLayout>
+</LinearLayout>

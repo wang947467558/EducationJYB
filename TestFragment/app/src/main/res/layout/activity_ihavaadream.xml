@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/comment"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/x300"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的梦想"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="@dimen/x300"
+                android:layout_height="@dimen/x2"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/comment" />
+
+            <EditText
+                android:id="@+id/activity_dream_editText_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x70"
+                android:layout_marginTop="@dimen/x5"
+                android:background="#00000000"
+                android:gravity="left"
+                android:hint="例如：我想要在毕业之前举办一次个人演唱会..."
+                android:textColor="@color/text_sed"
+                android:textColorHint="@color/fenggexian"
+                android:textSize="@dimen/x9" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/x300"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需求"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="@dimen/x300"
+                android:layout_height="@dimen/x2"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/comment" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x5">
+
+                    <Button
+                        android:id="@+id/fly_music"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x5">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x5">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/x5">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/x18"
+                        android:layout_marginLeft="@dimen/x8"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_weight="1"
+                        android:background="@drawable/mengxiang_round_kuang_bg"
+                        android:text="音  乐"
+                        android:textColor="@color/text_sed"
+                        android:textSize="@dimen/x10" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/x300"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="@dimen/x300"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/x8">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="独白"
+                    android:textSize="@dimen/x14" />
+
+                <View
+                    android:layout_width="@dimen/x300"
+                    android:layout_height="@dimen/x2"
+                    android:layout_marginTop="@dimen/x5"
+                    android:background="@color/comment" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/x8">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="说出你的想法，来打动同学们为你的梦想赢得更近一步的机会！"
+                        android:textColor="@color/fenggexian"
+                        android:textSize="@dimen/x9" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:paddingTop="@dimen/x10"
+                            android:src="@drawable/yuying" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

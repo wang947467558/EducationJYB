@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_kuang_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/x5">
+
+    <RelativeLayout
+        android:id="@+id/realtabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/x8">
+
+        <ImageView
+            android:id="@+id/item_school_imageview_title"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:src="@drawable/user_photo" />
+
+        <TextView
+            android:id="@+id/item_shcool_textview_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x5"
+            android:layout_toRightOf="@id/item_school_imageview_title"
+            android:text="王成宇"
+            android:textSize="@dimen/x14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_school_textview_shcoolname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_shcool_textview_username"
+            android:layout_marginLeft="@dimen/x5"
+            android:layout_marginTop="@dimen/x5"
+            android:textSize="@dimen/x12"
+            android:layout_toRightOf="@+id/item_school_imageview_title"
+            android:text="南京航空大学" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/realtabcontent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x8"
+            android:padding="@dimen/x8">
+
+            <ImageView
+                android:id="@+id/item_shcool_imageview_content1"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/x80"
+                android:layout_weight="1"
+                android:src="@drawable/shouye_content" />
+
+            <ImageView
+                android:id="@+id/item_shcool_imageview_content2"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/x80"
+                android:layout_weight="1"
+                android:src="@drawable/shouye_content" />
+
+            <ImageView
+                android:id="@+id/item_shcool_imageview_content3"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/x80"
+                android:layout_weight="1"
+                android:src="@drawable/shouye_content" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginTop="@dimen/x5">
+
+
+            <ImageView
+                android:id="@+id/imageview_aixing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/shoucang" />
+
+
+            <TextView
+                android:id="@+id/dianZanName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:layout_toRightOf="@id/imageview_aixing"
+                android:text="月月、兵兵...觉得很赞"
+                android:textSize="@dimen/x11" />
+
+                <TextView
+                    android:id="@+id/item_shcool_textview_dianzan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x60"
+                    android:textSize="@dimen/x11"
+                    android:layout_toRightOf="@+id/dianZanName_textView"
+                    android:text="点赞" />
+
+                <TextView
+                    android:id="@+id/item_shcool_textview_pinglun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x90"
+                    android:textSize="@dimen/x11"
+                    android:layout_toRightOf="@id/dianZanName_textView"
+                    android:text="评论" />
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:id="@+id/item_textview_dashang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x120"
+                    android:layout_toRightOf="@id/dianZanName_textView"
+                    android:text="打赏" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x2"
+            android:background="@color/comment"
+            android:padding="@dimen/x8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x10"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:id="@+id/item_shcool_textview_pinglunname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="月月" />
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/item_shcool_textview_pinglunname"
+                    android:text=" :" />
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:id="@+id/item_school_textview_pingjiacontent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/item_shcool_textview_pinglunname"
+                    android:text="  好看" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+
+                >
+
+
+                <EditText
+
+                    android:padding="4dp"
+                    android:id="@+id/item_shcool_edittext_pinglun"
+                    android:layout_width="@dimen/x200"
+                    android:layout_height="@dimen/x30"
+                    android:background="@drawable/round_kuang_pl"
+                    android:hint="评论："
+                    android:textColorHint="#9a9a9a"
+                    android:text=""
+                    android:textSize="@dimen/x11" />
+
+                <TextView
+
+                    android:background="@color/comment"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:id="@+id/item_shcool_button_send"
+                    android:layout_width="@dimen/x50"
+                    android:layout_height="@dimen/x30"
+                    android:layout_toRightOf="@id/item_shcool_edittext_pinglun"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="发送"
+                    android:textSize="@dimen/x11" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

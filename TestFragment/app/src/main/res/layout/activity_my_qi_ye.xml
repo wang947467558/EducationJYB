@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_qi_ye"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment"
+    android:orientation="vertical"
+    tools:context="com.example.ccjust.testfragment.activity.MyQiYeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x150"
+            android:src="@drawable/personal_center_bg"
+             />
+        <include
+            layout="@layout/myqiye_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写企业名称"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写企业地址"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写联系人姓名"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写联系电话"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写电子邮箱"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+        <EditText
+            android:layout_width="@dimen/x231"
+            android:layout_height="@dimen/x61"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:hint="请填写企业介绍（不少于30字）"
+            android:padding="@dimen/x5"
+            android:textSize="@dimen/x12" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/x231"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x5"
+            android:text="上传营业执照"
+            android:textSize="@dimen/x10" />
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/business"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x50"
+            android:layout_marginTop="@dimen/x10"
+            android:src="@drawable/qiye_push" />
+    </LinearLayout>
+
+    <Button
+        android:textSize="@dimen/x10"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x30"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x15"
+        android:background="@color/white"
+        android:text="提交"
+        android:textColor="@color/text_sed" />
+
+</LinearLayout>

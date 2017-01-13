@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x22"
+            android:background="@color/white"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/jianli" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/FragmentMine_MyJianLi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x16"
+                    android:paddingRight="@dimen/x10"
+                    android:text="我的简历"
+                    android:textSize="@dimen/x14" />
+
+
+                <TextView
+                    android:textSize="@dimen/x12"
+                    android:paddingRight="@dimen/x10"
+                    android:text="完成0%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView10" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toudi" />
+
+            <TextView
+                android:id="@+id/fragmentMine_touDi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x21"
+                android:paddingRight="@dimen/x10"
+                android:text="投递情况"
+                android:textSize="@dimen/x14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x10"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/zichang" />
+
+            <TextView
+                android:id="@+id/fragmentMine_MyZiChan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x16"
+                android:paddingRight="@dimen/x10"
+                android:text="我的资产"
+                android:textSize="@dimen/x14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/youli" />
+
+            <TextView
+                android:id="@+id/fragmentMine_yaoQing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x16"
+                android:paddingRight="@dimen/x10"
+                android:text="邀请有礼"
+                android:textSize="@dimen/x14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x10"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qiye" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fragmentMine_MyQiYe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x16"
+                    android:paddingRight="@dimen/x10"
+                    android:text="我的企业"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:textSize="@dimen/x12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="@dimen/x10"
+                    android:text="未认证" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/zhaoping" />
+
+            <TextView
+                android:id="@+id/fragmentMine_MyZhaoPing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x16"
+                android:paddingRight="@dimen/x10"
+                android:text="我的招聘"
+                android:textSize="@dimen/x14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x10"
+            android:background="@color/comment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x25"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/setting" />
+
+            <TextView
+                android:id="@+id/fragmentMine_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x16"
+                android:paddingRight="@dimen/x10"
+                android:text="设置"
+                android:textSize="@dimen/x14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40"
+            android:background="@color/comment" />
+    </LinearLayout>
+</LinearLayout>

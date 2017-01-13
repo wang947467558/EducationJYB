@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/comment"
+        android:orientation="vertical">
+
+        <include layout="@layout/shaixuan_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/fenggexian" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_marginTop="@dimen/x8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15"
+                android:text="性别"
+                android:textSize="@dimen/x14"
+                android:id="@+id/textView2" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/fenggexian" />
+
+            <LinearLayout
+                android:padding="@dimen/x5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxSex_tv_unlimited"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginBottom="26px"
+                    android:layout_marginTop="26px"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:clickable="true"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="不限"
+                    android:textColor="@drawable/tab_home_text_color_qj" />
+
+                <TextView
+                    android:id="@+id/sxSex_tv_woman"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:clickable="true"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="女"
+                    android:textColor="@drawable/tab_home_text_color" />
+
+                <TextView
+                    android:id="@+id/sxSex_tv_man"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:clickable="false"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="男"
+                    android:textColor="@drawable/tab_home_text_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginTop="@dimen/x5"
+            android:background="@color/fenggexian" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/x8"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15"
+                android:text="学历"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/fenggexian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_unlimited"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="不限"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/themeColor" />
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_highSchool"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="高中"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_juniorCollege"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="大专"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="26px"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_undergraduate"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="本科"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_master"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="硕士"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxEducation_tv_doctor"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="博士"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginTop="@dimen/x5"
+            android:background="@color/fenggexian" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/x8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15"
+                android:text="经验"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/fenggexian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxExperience_tv_unlimited"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="不限"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/themeColor" />
+
+                <TextView
+                    android:textSize="@dimen/x14"
+                    android:id="@+id/sxExperience_tv_shouldBeBorn"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="应界生"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxExperience_tv_oneInside"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="1年以内"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="26px"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxExperience_tv_oneAndTwo"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="1-2年"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxExperience_tv_threeAndFive"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="3-5年"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxExperience_tv_fiveOutside"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginTop="26px"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="5年以上"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/fenggexian" />
+
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/x8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15"
+                android:text="薪资"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/fenggexian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_unlimited"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="不限"
+                    android:textColor="@color/themeColor" />
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_threeUnder"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="3K以下"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_threeAndFive"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="3K-5K"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="26px"
+                android:layout_marginTop="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_fiveAndTen"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="5K-10K"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_tenAndTwenty"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="10K-20K"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxSalary_tv_twentyOutside"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="20K以上"
+                    android:textSize="@dimen/x14"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:layout_marginTop="@dimen/x5"
+            android:background="@color/fenggexian" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x15"
+                android:text="职位"
+                android:textSize="@dimen/x14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x1"
+                android:layout_marginTop="@dimen/x5"
+                android:background="@color/fenggexian" />
+
+            <LinearLayout
+                android:layout_marginTop="26px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxJob_tv_unlimited"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="不限"
+                    android:textColor="@color/themeColor" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_internet"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="互联网"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_forgetfulMedical"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="健康医疗"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxJob_tv_lifeService"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="生活服务"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_touristFood"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="旅游餐饮"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_financial"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="财务金融"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxJob_tv_information"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="信息安全"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_advertising"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="广告营销"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_culture"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="文化娱乐"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxJob_tv_electronic"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="电子商务"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_O2O"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="O2O"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_media"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="广告传媒"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px"
+                android:layout_marginBottom="26px"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/sxJob_tv_game"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="游戏开发"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_mediaPublic"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/x14"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="媒体公关"
+                    android:textColor="@color/text_sed" />
+
+                <TextView
+                    android:id="@+id/sxJob_tv_software"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x26"
+                    android:textSize="@dimen/x14"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:background="@drawable/shuaixuan_round_kuang_bg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="软件开发"
+                    android:textColor="@color/text_sed" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

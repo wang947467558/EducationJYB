@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grayBgColor"
+        android:orientation="horizontal"
+        android:padding="@dimen/x8">
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周日" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周一" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周二" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周三" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周四" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周五" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周六" />
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_week"
+        android:padding="@dimen/x5" />
+
+    <LinearLayout
+        android:background="#999333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/x8">
+
+        <TextView
+            android:id="@+id/rili_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/x15" />
+
+        <TextView
+            android:textSize="@dimen/x12"
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="2014-5-6" />
+
+        <TextView
+            android:id="@+id/rili_tv_lingQu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x60"
+            android:text="未领取"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/x12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/comment"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/x8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部任务"
+            android:textSize="@dimen/x14" />
+    </LinearLayout>
+    <View
+        android:background="#9900"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x2" />
+</LinearLayout>

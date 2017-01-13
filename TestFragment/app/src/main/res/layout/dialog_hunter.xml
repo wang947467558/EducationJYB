@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_layout_round_kuang_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x8"
+        android:text="                 您想要进入的是                 "
+        android:textColor="@color/black"
+        android:textSize="@dimen/x14" />
+
+    <RelativeLayout
+        android:id="@+id/tv_fullTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/x8"
+            android:text="全职"
+            android:textColor="#3797ff"
+            android:textSize="@dimen/x14" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/comment" />
+
+    <RelativeLayout
+        android:id="@+id/tv_partTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/x8"
+            android:text="兼职"
+            android:textColor="#3797ff"
+            android:textSize="@dimen/x14" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/comment" />
+
+    <RelativeLayout
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/x8"
+            android:text="返回"
+            android:textColor="#3797ff"
+            android:textSize="@dimen/x14" />
+    </RelativeLayout>
+</LinearLayout>

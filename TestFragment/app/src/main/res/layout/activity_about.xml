@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ccjust.testfragment.activity.AboutActivity">
+
+    <include layout="@layout/title_bar" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="@dimen/x90"
+        android:layout_height="@dimen/x90"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x100"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/tv_banben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x15"
+        android:text="就业邦 v2.3"
+        android:textColor="#313131"
+        android:textSize="@dimen/x13" />
+
+    <TextView
+        android:textSize="@dimen/x11"
+        android:id="@+id/tv_con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_banben"
+        android:layout_marginTop="@dimen/x15"
+        android:background="@color/grayBgColor"
+        android:lineSpacingExtra="5dp"
+        android:padding="@dimen/x10"
+        android:text="“就业邦”（JYB）目前是中国最大的大学生就业创业平台，为大学生提供全方位的求职服务和创业扶持；为企业的发展输送目标性岗位人才。用户可以使用“就业邦”平台进行学生求职，企业招聘、创业扶持、高端人才送福利。真正可以让学生“毕业即就业、放假即实习、创业即扶持、人才即培养”。" />
+
+    <TextView
+        android:textSize="@dimen/x11"
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_con"
+        android:gravity="center_horizontal"
+        android:text="我们的口号是 ：想你所想！圆你所梦！" />
+
+    <TextView
+        android:textSize="@dimen/x11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="@dimen/x5"
+        android:gravity="center_horizontal"
+        android:text="我们的目标是：互联网+就业平台=就业邦" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x10"
+        android:gravity="center_horizontal"
+        android:text=" 江苏德心桂文化艺术培训有限公司  版权所有"
+        android:textSize="@dimen/x11" />
+
+    <TextView
+        android:id="@+id/tv_xuke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="就业邦许可及服务协议"
+        android:textSize="@dimen/x11" />
+</RelativeLayout>

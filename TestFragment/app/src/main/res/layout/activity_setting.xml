@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment"
+    android:orientation="vertical"
+    tools:context="com.example.ccjust.testfragment.activity.SettingActivity">
+
+    <include layout="@layout/title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/comment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/x8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="推送消息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="关"
+            android:textOn="开"
+            android:textSize="@dimen/x14" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1" />
+
+    <LinearLayout
+        android:id="@+id/setting_ll_xiuGaimm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/x8"
+        android:paddingRight="@dimen/x10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="修改密码"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/x8"
+        android:background="@color/white"
+        android:id="@+id/settin_ll_xinShouHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/x10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="新手帮助"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/x10"
+        android:id="@+id/setting_ll_aboutOur"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/x10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="关于我们"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        />
+
+    <LinearLayout
+        android:padding="@dimen/x10"
+        android:id="@+id/setting_ll_userFanHui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="用户反馈"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x8"
+        />
+
+
+    <LinearLayout
+        android:padding="@dimen/x10"
+        android:background="@color/white"
+        android:id="@+id/setting_ll_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:text="退出登录"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+    </LinearLayout>
+</LinearLayout>

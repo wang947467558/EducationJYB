@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/item_fly_imageView_titlePhoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/fly_title" />
+
+        <TextView
+            android:id="@+id/item_fly_textView_titleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:text="月月" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="她的梦想：" />
+
+                <TextView
+                    android:id="@+id/iten_fly_textView_mxContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/x11"
+                    android:text="我想在毕业之前开办一场自己的演唱会" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="@dimen/x11"
+                    android:text="她的需求：" />
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:id="@+id/iten_fly_textView_xqContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="我想在毕业之前开办一场自己的演唱会" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="@dimen/x11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="她的独白：" />
+
+                <ImageView
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/item_fly_imageView_speech"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/flyyuying" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支持她/他："
+                android:textSize="@dimen/x13"
+                android:textColor="@color/text_sed" />
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x15"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@drawable/fly_changdi_hui"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="@dimen/x20" />
+
+                    <TextView
+                        android:textSize="@dimen/x10"
+                        android:id="@+id/item_fly_textView_place"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="场地" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingRight="@dimen/x15"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/fly_guanzhong_hui"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="@dimen/x20" />
+                <TextView
+                    android:textSize="@dimen/x10"
+                    android:id="@+id/item_fly_textView_audience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="观众" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingRight="@dimen/x15"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/fly_zijing_hui"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="@dimen/x20" />
+                <TextView
+                    android:textSize="@dimen/x10"
+                    android:id="@+id/item_fly_textView_capital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资金" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:src="@drawable/fly_yinxiang_hui"
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="@dimen/x20" />
+                <TextView
+                    android:textSize="@dimen/x10"
+                    android:id="@+id/item_fly_textView_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="音响" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

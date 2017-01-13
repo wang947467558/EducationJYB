@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gai_mi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comment"
+    android:orientation="vertical"
+    tools:context="com.example.ccjust.testfragment.activity.GaiMiActivity">
+
+    <include layout="@layout/title_bar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_kuang_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="@dimen/x10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:paddingLeft="@dimen/x8"
+                android:textSize="@dimen/x14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x40"
+                android:background="@color/white"
+                android:hint="请输入旧密码" />
+
+
+            <EditText
+                android:paddingLeft="@dimen/x8"
+                android:textSize="@dimen/x14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x40"
+                android:layout_marginTop="@dimen/x10"
+                android:background="@color/white"
+                android:hint="请输入旧密码"
+                android:id="@+id/editText" />
+
+            <EditText
+                android:paddingLeft="@dimen/x8"
+                android:textSize="@dimen/x14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x40"
+                android:layout_marginTop="@dimen/x10"
+                android:background="@color/white"
+                android:hint="请输入旧密码" />
+        </LinearLayout>
+
+        <Button
+            android:textSize="@dimen/x13"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_tiJiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@drawable/btn_yuanjiao"
+            android:text="提交"
+            android:textColor="@color/text_sed" />
+    </LinearLayout>
+</LinearLayout>

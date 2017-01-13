@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--轮播联网资源颜色-->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_title">#66999999</color>
+    <color name="gray">#666666</color>
+    <!--DiaLog-->
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="triangle">#aa72d572</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#25808080</color>
+
+    <!--主题色和字体色-->
+    <color name="themeColor">#fd4200</color>
+    <color name="text_sed">#515151</color>
+
+
+    <!--评论框背景色-->
+    <color name="grayBgColor">#f0f0f0</color>
+    <color name="biankuanColor">#c4c4c4</color>
+    <color name="comment">#f0f0f0</color>
+    <!--mine标题颜色-->
+    <color name="mtransport">#00000000</color>
+    <color name="titllebar_back_on">#45d05e</color>
+
+    <!--分割线-->
+    <color name="fenggexian">#bfbfbf</color>
+
+    <!--Toast Dialog-->
+    <color name="textgray">#EFF0F0</color>
+    <color name="textgray2">#E6E7E6</color>
+    <color name="textwhite">#FFFFFF</color>
+    <color name="textblackColor">#aa000000</color>
+
+    <!-- 浮标 透明 -->
+    <color name="apha">#00000000</color>
+</resources>

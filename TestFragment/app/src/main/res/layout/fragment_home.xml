@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x152">
+
+        <com.example.ccjust.testfragment.adapter.AutoScrollViewPager
+            android:id="@+id/scroll_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.example.ccjust.testfragment.viewpager.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x20"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/x8">
+
+
+        <TextView
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="校园新动态"
+            android:textColor="@color/themeColor"
+            android:textSize="@dimen/x15" />
+
+        <TextView
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="热门职位"
+            android:textSize="@dimen/x15" />
+
+        <TextView
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="活动专区"
+            android:textSize="@dimen/x15" />
+    </LinearLayout>
+    <!--<View-->
+    <!--android:background="@color/comment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myViewPager_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+</LinearLayout>

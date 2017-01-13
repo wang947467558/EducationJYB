@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@color/themeColor"
+    android:paddingTop="@dimen/x22"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:background="@color/themeColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x43"
+        >
+
+        <ImageView
+            android:paddingLeft="@dimen/x10"
+            android:layout_centerVertical="true"
+            android:id="@+id/title_bar_imageView_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left"
+            android:visibility="gone" />
+
+        <TextView
+            android:paddingLeft="@dimen/x10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/title_bar_textView_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="@dimen/x15"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/title_bar_textView_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放飞梦想"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x16"
+            android:visibility="gone" />
+
+        <ImageView
+            android:paddingRight="@dimen/x10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/title_bar_imageView_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right"
+            android:visibility="gone" />
+
+        <TextView
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/x11"
+            android:id="@+id/title_bar_textView_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rect"
+            android:text="我有一个梦想"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+        <TextView
+            android:paddingRight="@dimen/x10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/x16"
+            android:id="@+id/title_bar_textViewSizeBig_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rect"
+            android:text="我有一个梦想"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

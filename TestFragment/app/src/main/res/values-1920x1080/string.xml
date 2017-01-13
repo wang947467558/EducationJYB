@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="lay_x">400</integer>
+    <integer name="lay_y">600</integer>
+</resources>

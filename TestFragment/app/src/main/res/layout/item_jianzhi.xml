@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/x8">
+
+        <ImageView
+            android:id="@+id/item_JianZhi_ImageView_Title"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x50"
+            android:src="@drawable/logo1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_JianZhi_TextView_TitleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="膜咖微信关注抽奖"
+                android:textSize="@dimen/x15"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余任务"
+                    android:textSize="@dimen/x10" />
+
+                <TextView
+                    android:id="@+id/item_JianZhi_TextView_rwNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:text="969/1000"
+                    android:textSize="@dimen/x10" />
+                <TextView
+                    android:layout_marginLeft="@dimen/x110"
+                    android:textSize="@dimen/x15"
+                    android:id="@+id/item_JianZhi_TextView_Money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.00"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="截止时间"
+                    android:textSize="@dimen/x10" />
+
+                <TextView
+                    android:id="@+id/item_JianZhi_TextView_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:text="12-31"
+                    android:textSize="@dimen/x10" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

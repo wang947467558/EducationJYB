@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">就业邦</string>
+
+    <!--浮标周围菜单名-->
+    <string name="account">账户</string>
+
+
+
+    <integer name="lay_x">250</integer>
+    <integer name="lay_y">400</integer>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/themeColor"
+    android:paddingTop="@dimen/x22"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x35">
+
+        <TextView
+            android:layout_marginLeft="@dimen/x15"
+            android:id="@+id/tv_cancel"
+            android:textSize="@dimen/x14"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+
+            android:textSize="@dimen/x15"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="筛选" />
+
+        <TextView
+            android:layout_marginRight="@dimen/x20"
+            android:layout_alignParentRight="true"
+            android:id="@+id/comfire"
+            android:textSize="@dimen/x14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认" />
+
+    </RelativeLayout>
+</LinearLayout>

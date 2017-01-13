@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/x8">
+
+        <ImageView
+            android:id="@+id/item_job_imageview_title"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/y50"
+            android:src="@drawable/job" />
+
+        <TextView
+            android:textSize="@dimen/x13"
+            android:textColor="@color/black"
+            android:id="@+id/item_job_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_toRightOf="@+id/item_job_imageview_title"
+            android:text="4G网络工程师" />
+
+        <TextView
+            android:textSize="@dimen/x11"
+            android:id="@+id/item_job_textview_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:layout_marginTop="@dimen/x28"
+            android:layout_toRightOf="@+id/item_job_imageview_title"
+            android:text="科技最前沿" />
+
+        <TextView
+            android:textSize="@dimen/x7"
+            android:id="@+id/item_job_textview_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:layout_marginTop="@dimen/x50"
+            android:layout_toRightOf="@+id/item_job_imageview_title"
+            android:text="1个小时前" />
+
+        <TextView
+            android:textColor="@color/themeColor"
+            android:textSize="@dimen/x7"
+            android:id="@+id/item_job_textview_yudu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x70"
+            android:layout_marginTop="@dimen/x50"
+            android:layout_toRightOf="@+id/item_job_imageview_title"
+            android:text="10000人阅" />
+
+        <ImageView
+            android:id="@+id/item_job_imageview_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x100"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_toRightOf="@id/item_job_textview_yudu"
+            android:src="@drawable/right" />
+
+    </RelativeLayout>
+
+</LinearLayout>

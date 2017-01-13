@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ccjust.testfragment.activity.HelpActivity">
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/x10"
+        android:background="#fff"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x10"
+                android:gravity="center_horizontal"
+                android:text="新手帮助"
+                android:textColor="#313131"
+                android:textSize="@dimen/x16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="10dp"
+                android:text="“就业邦（JYB）”致力于中国最大的服务大学生就业、创业平台。为大学生提供全方位的求职服务以及创业支持；为企业的发展输送目标性的岗位人才。您可以使用手机进行学生求职，企业招聘，创业免息贷款，更有高端人才库模块等您入驻，让您“毕业即入职、放假即实习、创业即扶持、人才即培养”。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="@dimen/x10"
+                android:text="平台一共5个端口分别为：首页、学生端（含实习）、企业端、创业端、人才端。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="10dp"
+                android:text="首页：提供每天的就业邦早报以及每日工作，每日工作可以报名，可以分享。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="10dp"
+                android:text="学生端：学生免费注册后，就业邦平台会根据学生自身的要求和专业在15个工作日之内给学生免费推荐一份工作。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="@dimen/x10"
+                android:text="企业端：企业注册审核成功后，可以免费发布公司所需岗位，就业邦平台会把专业的大学生输送给企业。企业用人成功后，就业邦会返现金10-100元不等给企业。让企业真正既得人才，又得返现。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="@dimen/x10"
+                android:text="创业端：创业端可以提供免息贷款给有创业梦想的大学生，大学生创业者可根据所需创业资金来投平台上所设的资金板块，中奖后提交创业计划，待审核通过后立即放款且三年无任何利息！对于大学生中奖或者不中都会在三年后归还所投资金和利息。"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:lineSpacingExtra="@dimen/x1"
+                android:padding="@dimen/x10"
+                android:text="人才端：所谓高端人才就是取得国家所承认的执业高级证书如：一级建造师，执业医师药师、注册会计师，律师等高端人才，注册成功后就业邦平台就送一份终身保险!"
+                android:textColor="#868686"
+                android:textSize="@dimen/x13" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

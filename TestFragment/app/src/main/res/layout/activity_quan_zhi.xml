@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quan_zhi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ccjust.testfragment.hunteractivity.QuanZhiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/themeColor"
+        android:paddingTop="@dimen/x22">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x60"
+                android:background="@color/themeColor"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x10"
+                    android:padding="@dimen/x2"
+                    android:src="@drawable/left" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x25"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="@dimen/x210"
+                        android:layout_height="@dimen/x29"
+                        android:background="@drawable/searchview_round_kuang_bg"
+                        android:hint="搜索意向职位"
+                        android:paddingLeft="@dimen/x5"
+                        android:textSize="@dimen/x14" />
+
+                    <!--<SearchView-->
+                    <!--android:id="@+id/search"-->
+                    <!--android:layout_width="@dimen/x210"-->
+                    <!--android:layout_height="@dimen/x29"-->
+                    <!--android:layout_gravity="fill_vertical"-->
+                    <!--android:background="@drawable/searchview_round_kuang_bg"-->
+                    <!--android:iconifiedByDefault="false"-->
+                    <!--android:inputType="textFilter"-->
+                    <!--android:queryBackground="@color/white"-->
+                    <!--android:queryHint="搜索意向职位"-->
+                    <!--android:searchHintIcon="@color/white" />-->
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x15"
+                    android:background="@color/rect"
+                    android:text="搜索"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x30"
+                android:layout_marginTop="@dimen/x10"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x40"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:layout_marginLeft="@dimen/x18"
+                        android:text="热门"
+                        android:textColor="@color/themeColor"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/x1"
+                    android:layout_height="@dimen/x40"
+                    android:layout_marginRight="@dimen/x60"
+                    android:background="@color/comment" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:text="筛选"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/quanzhi_listview"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/shaixun_ll"
+        android:layout_width="@dimen/x283"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <include layout="@layout/fragment_shaixuan"></include>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

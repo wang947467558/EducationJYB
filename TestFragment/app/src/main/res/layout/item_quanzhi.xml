@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/x2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/item_quanzhi_iv_titleName1"
+                android:layout_width="@dimen/x90"
+                android:layout_height="@dimen/x90"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:id="@+id/item_quanzhi_tv_titleName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_marginTop="@dimen/x95"
+                android:text="[苏州]招聘苏州钢琴老师，6000/月起"
+                android:textSize="@dimen/x12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/item_quanzhi_iv_titleName2"
+                android:layout_width="@dimen/x90"
+                android:layout_height="@dimen/x90"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo1" />
+
+            <TextView
+                android:id="@+id/item_quanzhi_tv_titleName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_marginTop="@dimen/x95"
+                android:text="[苏州]招聘苏州钢琴老师，6000/月起"
+                android:textSize="@dimen/x12" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
